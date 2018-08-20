@@ -7,6 +7,9 @@ spring:
       view:
         prefix: /WEB-INF/jsp/
         suffix: .jsp
-      static-path-pattern: /**
-    resources:
-      static-locations: classpath:/resources/
+
+        #默认的静态资源访问,是在 src.main.resources目录(和yml文件同级目录)下的(static目录)
+#手动指定resources目录 需要打开下面三行注释, 先右键点击webapp文件夹 -> Mark Directory as -> UNmark as -> Resources Root, 然后 , 右键点击 WEB-INF文件夹 -> Mark Directory as -> Sources Root 即可
+#      static-path-pattern: /**
+#    resources:
+#      static-locations: classpath:/resources/

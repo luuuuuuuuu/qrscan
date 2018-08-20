@@ -1,0 +1,226 @@
+* {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 0
+}
+input, fieldset, img {
+    border: 0
+}
+a {
+    text-decoration: none
+}
+
+a:link {
+    color: #253447
+}
+
+a:hover {
+    color: #253447
+}
+
+a:visited {
+    color: #253447
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0
+}
+
+input[type="number"] {
+    -moz-appearance: textfield
+}
+li {
+    list-style-type: none
+}
+.pc_sign_in {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    position: relative
+}
+
+.eq_logo {
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    top: 22px;
+    left: 22px
+}
+
+.left_color {
+    color: #fff;
+    text-align: center
+}
+
+.left_color>p:first-child {
+    font-size: 60px;
+    -webkit-margin-before: 0 !important;
+    -webkit-margin-after: 0 !important;
+    height: 80px;
+    overflow: hidden
+}
+
+.left_color>p:last-child {
+    font-size: 40px;
+    -webkit-margin-before: 0 !important;
+    -webkit-margin-after: 0 !important;
+    height: 60px;
+    overflow: hidden
+}
+
+.pc_sign_in_box {
+    width: 340px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden
+}
+
+.pc_sign_in_title {
+    overflow: hidden
+}
+
+.pc_sign_in_title ul li {
+    float: left;
+    width: 50%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    color: #8a8d91
+}
+
+.pc_sign_in>div {
+    overflow: hidden;
+    display: flex;
+    align-items: center
+}
+
+.left_color {
+    margin-right: 160px
+}
+
+.right_box {
+    margin-left: 160px
+}
+
+.title_selected, .pc_sign_in_title ul li:hover {
+    color: #1dbfb3 !important;
+    border-bottom: 2px solid #1dbfb3 !important
+}
+
+.pc_sign_in_cont, .pc_sign_in_input {
+    height: 260px
+}
+
+.pc_sign_in_cont {
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box
+}
+
+.pc_sign_in_cont>div:first-child {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 200px
+}
+
+.pc_sign_in_cont>div:last-child {
+    padding-top: 10px;
+    font-size: 12px;
+    color: #8a8d91
+}
+
+.pc_sign_in_cont>div img {
+    width: 100%
+}
+
+.pc_qr_code {
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    overflow: hidden
+}
+
+.footer_cont {
+    overflow: hidden;
+    background: #e9f9f8
+}
+
+.footer_cont>ul>li {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #1dbfb3;
+    position: relative;
+    cursor: pointer
+}
+
+.footer_cont>ul>li:first-child:after {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    border-right: 1px solid #1dbfb3;
+    position: absolute;
+    right: 0
+}
+
+.pc_sign_in_input_w {
+    width: 270px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.pc_sign_in_input {
+    padding-top: 50px;
+    box-sizing: border-box;
+    display: none
+}
+
+.pc_sign_in_input_w input {
+    width: 100%;
+    height: 40px;
+    padding-left: 20px !important
+}
+
+.pc_sign_in_input_w input:first-child {
+    border-bottom: 1px solid #d3d3d3
+}
+
+.sign_btn {
+    width: 270px;
+    margin: 0 auto;
+    padding-top: 20px
+}
+
+.sign_btn button {
+    width: 100%;
+    height: 40px;
+    background: #8b01bf;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+.sign_btn button:hover {
+    background: #cd00b9
+}
+.test_sign_in {
+    color: red;
+    width: 270px;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align: center;
+    visibility: hidden
+}
