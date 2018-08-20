@@ -9,4 +9,4 @@ spring:
         suffix: .jsp
       static-path-pattern: /**
     resources:
-      static-locations: classpath:/WEB-INF/resources/
+      static-locations: classpath:/resources/
