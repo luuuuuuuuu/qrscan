@@ -28,6 +28,17 @@ public class QRScanController {
         model.addAttribute("uuid",uuid);
         return "index";
     }
+    /**
+     * 加载二维码页面
+     * @return
+     */
+    @RequestMapping("/")
+    public String index2(Model model){
+        String uuid = UUID.randomUUID().toString();
+        PoolCache.cacheMap.put(uuid, new ScanPool());
+        model.addAttribute("uuid",uuid);
+        return "index";
+    }
 
     @RequestMapping("/scanLogin")
     @ResponseBody
