@@ -1,7 +1,7 @@
 server:
     port: 8099
     servlet:
-      context-path: /qrscan
+      context-path: /
 
 
 spring:
